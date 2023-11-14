@@ -1,0 +1,201 @@
+body{
+    color: white;
+margin: 0px;
+padding: 0px;
+background: url("../img/gym.jpg");
+background-size: cover;
+height: 800px;
+background-repeat: no-repeat;
+
+}
+.left{
+ display: inline-flex;
+/* border: 4px solid grey; */
+ align-items: center;
+position: absolute;
+top: 15px;
+left: 60px;
+ 
+ 
+}
+.right{
+display: inline-block;  
+position: absolute;
+top: 15px;
+right: 30px;
+/* border: 4px solid pink; */
+ 
+}
+.center{
+
+ width: 25%;
+ margin: 15px auto;
+ display: block;
+/* border: 4px solid orange; */
+}
+.navbar{
+display: inline-block;
+}
+
+.navbar ul{
+display: inline-block;
+font-size: 15px;
+}
+
+.navbar ul a{
+color: white;
+text-decoration: none;
+}
+.navbar ul a:hover,.navbar ul a.active{
+color: grey;
+text-decoration:underline;
+}
+#logo{
+width: 40px;
+height: 40px;
+}
+
+.gymName{
+margin-left: 10px;
+font-size: 25px;
+}
+
+.btn{
+margin: 0px 12px;
+color: white;
+background-color: black;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 5px;
+
+font-size: 17px;
+cursor: pointer;
+}
+.btn:hover{
+background-color: grey;
+}
+
+.container{
+border: 1px solid white;
+width: 25% ;
+height: 40% ;
+position: absolute;
+top: 200px;
+left: 70px;
+padding: 50px 40px;
+border-radius: 15px;
+}
+.container h2{
+font-size: 25px;
+color: whitesmoke;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.form-class {
+display: inline;
+flex-direction: column;
+align-items: center;
+}
+
+.form {
+margin-bottom: 10px;
+}
+
+label {
+margin-bottom: 5px;
+}
+
+.form input {
+padding: 10px;
+border: 2px solid black;
+width: 100%;
+box-sizing: border-box;
+height: 10px;
+}
+.form-class button{
+width: 100%;
+display: block;
+margin:25px auto;
+}
+
+.container2{
+ 
+position: absolute;
+top: 200px;
+left: 1000px;
+right: 70px;
+padding: 0px opx;
+ 
+}
+
+.info{
+     
+    font-size: 17px;
+
+}
+
+.aboutus{
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 1000px;
+    left: 650px;
+    right: 650px;
+    padding: 30px;
+}
+
+.container3{
+    width: 80%;
+    height: 10%;
+    background-color: grey;
+    display: inline-block;
+    position:absolute;
+    top: 1300px;
+    left: 150px;
+    right: 150px;
+    padding: 20px;
+}
+
+.container4{
+    width: 20%;
+    height: 40%;
+    background-color: pink;
+    display: inline-block;
+    background: url("../img/gym.jpg");
+    background-size: cover;
+    position:relative;
+    top: 1100px;
+    left: 250px;
+    right: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container5{
+    width: 20%;
+    height: 40%;
+    background: url("../img/gym.jpg");
+    background-size: cover;
+    background-color: pink;
+    display: inline-block;
+    position:relative;
+    top: 1100px;
+    left: 500px;
+    right: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.aboutText{
+     position: absolute;
+    top: 1600px;
+    left: 250px;
+    right: 250px;
+    padding: 25px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
